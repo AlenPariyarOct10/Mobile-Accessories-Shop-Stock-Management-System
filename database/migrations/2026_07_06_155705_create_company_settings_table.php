@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('company_settings', function (Blueprint $table) {
             $table->id();
+            $table->string('company_name');
+            $table->string('owner_name')->nullable();
+            $table->string('company_logo')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('email')->nullable();
+            $table->string('address')->nullable();
+            $table->string('footer_text')->nullable();
             $table->timestamps();
         });
     }
