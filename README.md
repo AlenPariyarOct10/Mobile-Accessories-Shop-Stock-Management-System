@@ -1,59 +1,216 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Stock Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A simple and efficient stock management system designed for small businesses, retail shops, and personal inventory management. It helps track inventory, sales, suppliers, repair/service jobs, and business performance through an intuitive dashboard.
 
-## About Laravel
+## ✨ Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### 📊 Dashboard
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* Business overview at a glance
+* Total products
+* Total suppliers
+* Current stock quantity
+* Inventory value
+* Total sales
+* Total profit
+* Today's sales
+* Monthly sales
+* Low stock alerts
+* High-selling products
+* Recent stock entries
+* Recent sales
+* Recent repair/service records
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🔐 User Authentication
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* Secure login
+* Protected dashboard and management pages
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## 📦 Product Management
 
-## Agentic Development
+* Add, edit, and remove products
+* Product image support
+* Product description
+* Purchase price
+* Selling price
+* Automatic stock tracking
+* Low stock monitoring
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+---
 
-```bash
-composer require laravel/boost --dev
+## 🚚 Supplier Management
 
-php artisan boost:install
-```
+* Manage supplier information
+* Contact details
+* Address
+* Notes
+* Link suppliers to stock entries
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+---
 
-## Contributing
+## 📥 Stock Entry
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Record incoming inventory with:
 
-## Code of Conduct
+* Automatic date selection
+* Product selection
+* Quantity
+* Purchase price per item
+* Automatic total calculation
+* Selling price
+* Optional supplier
+* Optional image
+* Notes
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 💰 Sales Management
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Create and manage sales with:
 
-## License
+* Automatic date and time
+* Quantity management
+* Automatic price calculation
+* Manual price adjustment when needed
+* Multiple payment methods
+* Customer information (optional)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# Mobile-Accessories-Shop-Stock-Management-System" 
+  * Name
+  * Phone Number
+  * Address
+* Sales history
+* Automatic stock deduction
+
+Supported payment methods:
+
+* Cash
+* eSewa
+* Bank Transfer
+
+---
+
+## 🛠 Repair & Service Management
+
+Manage repair and service jobs such as:
+
+* Phone repair
+* Tempered glass replacement
+* Watch repair
+* Electronic repairs
+* Accessories repair
+* Other custom services
+
+Record:
+
+* Service type
+* Customer information (optional)
+* Cost
+* Charged amount
+* Profit
+* Payment method
+* Notes
+* Date and time
+
+---
+
+## 📈 Reports
+
+Generate business reports including:
+
+* Sales Report
+* Stock Report
+* Product Report
+* Supplier Report
+* Repair & Service Report
+* Profit Report
+* High-Selling Products
+* Low Stock Products
+
+Reports support filtering by:
+
+* Date range
+* Product
+* Supplier
+* Payment method
+* Service type
+* Customer
+
+Export reports for further analysis or record keeping.
+
+---
+
+## 📉 Inventory Tracking
+
+* Real-time stock updates
+* Automatic stock deduction after sales
+* Stock history
+* Inventory valuation
+* Low stock notifications
+
+---
+
+## 💵 Profit Tracking
+
+Track business performance through:
+
+* Purchase cost
+* Sales revenue
+* Estimated profit
+* Service profit
+* Overall business profit
+
+---
+
+## 📷 Media Support
+
+* Product images
+* Stock entry images
+
+---
+
+## 🔎 Search & Filtering
+
+Quickly find information using filters across the system, including:
+
+* Products
+* Suppliers
+* Sales
+* Repairs & Services
+* Customers
+* Payment methods
+* Date ranges
+
+---
+
+## 📱 Responsive Interface
+
+Designed to work smoothly across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile devices
+
+---
+
+## 🎯 Suitable For
+
+* Retail Shops
+* Mobile Shops
+* Electronics Stores
+* Grocery Stores
+* Hardware Shops
+* Watch Shops
+* Repair Centers
+* Small Businesses
+* Personal Inventory Management
+
+---
+
+## 🚀 Goal
+
+Provide a clean, easy-to-use, and reliable solution for managing inventory, sales, services, and business records from a single dashboard while keeping day-to-day operations organized and efficient.
